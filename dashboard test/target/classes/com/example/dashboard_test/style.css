@@ -1,0 +1,80 @@
+
+#customLabel {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Merriweather';
+    -fx-text-fill: #800201;
+
+
+}
+
+#addScheduleButton {
+    -fx-background-color: #800201;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 10px; /* Reduced padding */
+    -fx-pref-width: 300px; /* Smaller width */
+    -fx-pref-height: 25px; /* Smaller height */
+    -fx-margin: 10px 0; /* Adds 10px margin above and below */
+    -fx-border-radius: 5;
+}
+
+#addScheduleButton:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #800201; /* Corrected color code */
+    -fx-font-size: 14px;
+    -fx-border-color: #800201; /* Corrected property name */
+    -fx-font-weight: bold;
+    -fx-padding: 5px 10px; /* Reduced padding */
+    -fx-pref-width: 300px; /* Smaller width */
+    -fx-pref-height: 25px; /* Smaller height */
+    -fx-margin: 10px 0; /* Adds 10px margin above and below */
+     -fx-border-radius: 5;
+
+}
+.customTable {
+    -fx-background-color: white;
+}
+
+.course-column-header {
+    -fx-alignment: center-left;
+    -fx-background-color: white;
+    -fx-text-fill: green;
+}
+
+.course-name-style {
+    -fx-background-color: white;
+    -fx-text-fill: green;
+}
+.cell-green-text {
+    -fx-background-color: white;
+    -fx-text-fill: green;
+}
+
+
+/* style.css */
+
+/* Align text to the left */
+.table-cell {
+    -fx-alignment: CENTER-LEFT;
+}
+
+/* Set table background color to white */
+.table-view {
+    -fx-background-color: white;
+}
+
+/* Course name colors */
+.cell-green-text {
+    -fx-text-fill: green;
+}
+
+.cell-red-text {
+    -fx-text-fill: red;
+}
+
+.cell-blue-text {
+    -fx-text-fill: blue;
+}
